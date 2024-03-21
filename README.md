@@ -17,6 +17,7 @@ This web application provides a convenient interface for generating Dart:ffi bin
 ![Interface](images/pastingCcode.png)
 
 2. Wait for the Dart:ffi bindings to be generated and displayed on the right.
+
    ![Generating Bindings](images/generating_bindings.png)
 
 3. Copy the generated Dart:ffi bindings and use them in your Dart projects.
