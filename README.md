@@ -1,16 +1,33 @@
-# sample
+# C Header to Dart:ffi Bindings Generator
 
-A new Flutter project.
+This web application provides a convenient interface for generating Dart:ffi bindings from C headers using the `package:ffigen` library. Simply paste your C header into the left textbox, and the corresponding Dart:ffi bindings will be displayed in the right textbox.
 
-## Getting Started
+![Interface](images/interface.png)
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Simple Interface:** Easy-to-use web interface for generating Dart:ffi bindings.
+- **Real-time Updates:** See the Dart:ffi bindings update in real-time as you paste your C header.
+- **Copy-Paste Ready:** Copy the generated Dart:ffi bindings with a single click.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Usage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Paste your C header into the textbox on the left.
+![Interface](images/pastingCcode.png)
+2. Wait for the Dart:ffi bindings to be generated and displayed on the right.
+3. Copy the generated Dart:ffi bindings and use them in your Dart projects.
+
+![Generating Bindings](images/generating_bindings.png)
+
+## How to Run Locally
+
+1. Clone this repository to your local machine
+2. Navigate to the project directory
+3. Install dependencies
+
+
+5. Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
+
+6. Start generating Dart:ffi bindings by pasting your C header into the left textbox.
+
+
