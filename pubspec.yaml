@@ -1,0 +1,36 @@
+name: sample
+description: "A new Flutter project."
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  ffi: ^2.1.0
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  shelf: ^1.4.1
+  shelf_cors_headers: ^0.1.5
+  shelf_router: ^1.1.4
+  shelf_router_generator: ^1.1.0
+  shelf_static: ^1.1.2
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  ffigen: ^11.0.0
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+ffigen:
+  output: 'bindings.dart' # Specify the output path
+  headers:
+    entry-points:
+      - 'user_code.c'

@@ -1,0 +1,13 @@
+name: sample_project
+description: My FFI bindings
+
+llvm-path:
+  - "D:\\Program Files\\LLVM\\bin"  # Path to LLVM bin directory
+  - "D:\\Program Files\\LLVM\\lib"  # Additional potential locations for LLVM
+  - "D:\\Program Files\\LLVM\\share"
+  - "D:\\Program Files\\LLVM"
+
+output: 'bindings.dart'  # Specify the output path
+headers:
+  entry-points:
+    - 'D:\\StudioProjects\\sample\\user_code.c'
