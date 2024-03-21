@@ -28,7 +28,7 @@ This web application provides a convenient interface for generating Dart:ffi bin
 1. Clone this repository to your local machine
 2. Navigate to the project directory
 3. Install dependencies by running `flutter pub get`
-4. run server.dart and main.dart with `flutter run lib/server.dart` and `flutter run lib/main.dart` respectively
+4. Run server.dart and main.dart with `flutter run lib/server.dart` and `flutter run lib/main.dart` respectively
 5. See the Dart:ffi bindings update in real-time as you paste your C header
 
 
